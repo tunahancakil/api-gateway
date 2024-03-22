@@ -6,12 +6,12 @@ spring:
       ddl-auto: update
     show-sql: true
   datasource:
-    #url: jdbc:mysql://178.128.207.116:3306/TENNISCLUB
-    url: jdbc:mysql://localhost:3306/TENNISCLUB
-    username: apigw
-    password: Apigw123+
-    #username: root
-    #password: 123456Tt+
+    url: jdbc:mysql://178.128.207.116:3306/TENNISCLUB
+    #url: jdbc:mysql://localhost:3306/TENNISCLUB
+    #username: apigw
+    #password: Apigw123+
+    username: tunahancakil
+    password: 123456Tt+
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       auto-commit: true
@@ -26,3 +26,6 @@ spring:
 
 server:
   port: 8091
+
+jwt:
+  secret: javainuse
